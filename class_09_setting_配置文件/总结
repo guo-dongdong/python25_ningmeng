@@ -9,4 +9,4 @@
 - 读取，  pyyaml   yaml.load（f,read(), Loader=）
 
 # ini
--数据类型读取出来是字符串
+-数据类型读取出来是字符串---
