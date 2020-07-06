@@ -1,0 +1,37 @@
+unittest  运行方式
+1.unittest右键
+2.python代码main： unittest.main（）
+3.python -m unittest
+
+断言方式：
+seif.assertEqual(expected, actual)  # 能够提示出预期结果和实际结果
+seif.assertTrue(表达式)    # 预期结果和实际结果没有具体的提示
+
+
+条件准备：前置条件和后置条件
+前置条件：每个测试用例执行之前都会执行的代码
+def setUp
+后置条件：每个测试用例执行之后都会执行的代码
+def tearDown
+
+
+测试用例执行流程：
+1.初始化加载器
+testloader = unittest.TestLoader()
+
+2.查找测试用例
+suite = testloader.discover(文件夹, 'test_*.py')
+# 其他的加载方式
+
+3.打开一个文件with open（） as f:
+
+4.初始化运行器：
+# runner = 运行器（f）
+runner = unittest.TextTestRunner(f,verbosity=2)
+
+5.运行测试用例
+runner.run(suite)
+
+
+# 测试用例执行
+# 用例数据管理excel

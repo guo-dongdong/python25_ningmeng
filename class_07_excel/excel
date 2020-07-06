@@ -1,0 +1,17 @@
+手工操作Excel
+
+excel的基础用法：手工如何操作？python学习手工操作
+
+1.打开excel文件（路径+文件名）
+2.获取sheet表单
+3.使用行号和列号，确定需要读取的数据
+4.关闭文件
+
+# python操作excel，工具
+- openpyxl,支持xlsx新型格式的读写，读取速度还可以
+- tablib，支持多种格式读写，xlsx,xls,csv,json,yaml,html,pd
+- xlrd,一种经典的excel读取库
+- xlwt，写
+- pandas，功能强，太臃肿了
+
+安装：pip install openpyxl

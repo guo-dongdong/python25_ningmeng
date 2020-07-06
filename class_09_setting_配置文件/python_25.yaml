@@ -1,0 +1,21 @@
+logger:
+  name: python25
+  file: python25_log.txt
+  level: DEBUG
+
+
+excel:
+  file: cases.xlsx
+  sheet: login
+
+
+request:
+  method: post
+
+demo: '25'
+
+demo1: ['tester': '_小川']
+
+demo2:
+  - tester1
+  - 小川GG

@@ -1,0 +1,7 @@
+world
+world
+python25-WARNING-world
+python25 - WARNING - world
+2020-07-05 12:19:56,052- demo_logging.py- 45- python25- WARNING- world
+2020-07-05 12:21:59,643 - demo_logging.py - 46 - python25 - WARNING - world
+2020-07-05 16:11:12,433 - demo_logging.py - 46 - python25 - WARNING - world12ert

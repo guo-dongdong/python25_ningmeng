@@ -1,0 +1,1 @@
+2020-07-05 17:05:05,009 - demo_02_log.py:17:python25:INFO - hello

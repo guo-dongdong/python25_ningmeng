@@ -1,0 +1,12 @@
+1.封装logger模块  继承。 小技巧：在定义的模块当中初始化
+
+2.配置文件，python，yaml，ini了解使用方法
+# python：直接通过模块下面的变量
+# python：类，可以继承
+
+# yaml
+- 语法：key：value  -  {}  []
+- 读取，  pyyaml   yaml.load（f,read(), Loader=）
+
+# ini
+-数据类型读取出来是字符串
